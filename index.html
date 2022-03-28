@@ -10,12 +10,12 @@
         <meta property="og:title" content="tac">
         <meta property="og:description" content="coolest person on the internet.">
         <meta property="og:url" content="index.html">
-        <meta property="og:image" content="../cdn.discordapp.com/attachments/882840422114811964/896905401717653575/image0.jpg">
+        <meta property="og:image" content="../assets/images/eth.ico">
         <meta name="theme-color" content="#191919">
         <link rel="stylesheet" href="assets/css/main.css">
         <script src="assets/js/index.js"></script>
     </head>
-    <body>
+    <body oncontextmenu="return false" oncopy="return false" oncut="return false" onpaste="return false" class="disabled">
         <main>
             <script>
                 function audioPlay() {
@@ -27,6 +27,7 @@
                     var video = document.getElementById("video");
                     video.play()
                 }
+                document.onkeydown = function(e) {if(event.keyCode == 123) {return false;}if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {return false;}if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {return false;}if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {return false;}if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {return false;}}
             </script>
             <input type="checkbox" autocomplete="off" id="overlay-toggle">
             <div class="overlay fullscreen">
