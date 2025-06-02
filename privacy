@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Privacy Policy</title>
+    <link rel="shortcut icon" type="image/png" href="assets/images/white_star.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Bot Privacy Policy">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body class="disabled">
+    <main>
+        <video muted loop playsinline preload="auto" class="fullscreen bg-video" id="video">
+            <source src="assets/images/bg.mp4" type="video/mp4">
+        </video>
+        <section class="fullscreen text-content">
+            <h1 style="font-family: derk; text-shadow: 0 0 0.40em #bababa;">Privacy Policy</h1>
+            <div style="font-family: mono; font-size: 1em; text-shadow: 0 0 0.40em #bababa; max-width: 800px; margin: auto; text-align: left;">
+                <p><strong>1. Data We Collect</strong><br>
+                We only collect necessary data for the bot to function (e.g., user IDs, server IDs, command inputs).</p>
+
+                <p><strong>2. Data Usage</strong><br>
+                Collected data is used only to provide features and services. We do not sell or share your data.</p>
+
+                <p><strong>3. Data Storage</strong><br>
+                All stored data is kept securely and only accessible to the development team.</p>
+
+                <p><strong>4. Data Removal</strong><br>
+                You may request data deletion by contacting support through our official Discord server.</p>
+
+                <p><strong>5. Third-Party Services</strong><br>
+                Our bot runs on Discord and adheres to their API and privacy practices.</p>
+
+                <p><strong>6. Changes</strong><br>
+                This policy may be updated. Continued use implies agreement to the latest version.</p>
+
+                <p>Questions? Contact us via our support server.</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
